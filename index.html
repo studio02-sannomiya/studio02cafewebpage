@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>コーディング実習_テスト</title>
+        <meta
+            name="description"
+            content="これまで訓練で学んできたHTML / CSSの成績考査です。合格点目指して頑張りましょう。"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Sono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/destyle.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/drawerMenu.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="header__inner">
+                <!-- ************************ 問題０１回答欄 ************************ -->
+                <!-- 下記のテキストをサイトの大見出し（タイトル）として相応しいタグで囲んでください -->
+                コーディング実習テスト
+
+                <button class="toggleButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav id="drawerMenu">
+                    <!-- ************************ 問題０２回答欄 ************************ -->
+                    トップ メニュー アクセス コンタクト
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="sec01">
+                <h2>猫の生態について</h2>
+                <!-- ************************ 問題０3回答欄 ************************ -->
+                <!-- ここに画像を貼り付けてください。 -->
+
+                <!-- ************************ 問題０４回答欄 ************************ -->
+                <!-- 使用するテキスト -->
+                猫の種類：イエネコ 生息地：家庭、市街地、人間の生活圏 よく食べるもの：キャットフード、ネズミ、小鳥
+                観察方法：家の中や公園、<br />住宅街で日常的に観察可能 猫の種類：ヤマネコ 生息地：森林、山岳地帯、湿地帯
+                よく食べるもの：ネズミ、ウサギ、昆虫、トカゲ 観察方法：夜行性で警戒心が強いため、<br />足跡や自動撮影カメラで観察
+                猫の種類：ライオン 生息地：アフリカのサバンナ、草原
+                よく食べるもの：シマウマ、ヌー、アンテロープなどの<br />大型草食動物 観察方法：サファリカーに乗り、<br />開けた平原で群れを探す
+                <!-- 使用するテキスト　ここまで -->
+            </section>
+
+            <section id="sec02">
+                <h2>問い合わせフォームを作ってください。</h2>
+                <!-- ************************ 問題０５回答欄 ************************ -->
+                <!-- 使用するテキスト -->
+                名前 メールアドレス 性別 男性 女性 未回答 血液型 A型 B型 O型 AB型 ご意見・ご感想 送信
+                <!-- 使用するテキスト ここまで-->
+            </section>
+
+            <section id="sec03">
+                <h2>SNS埋め込みをしてみよう</h2>
+                <!-- ************************ 問題０６回答欄 ************************ -->
+                <!-- 埋め込む動画のURL -->
+                https://youtu.be/xSG6JxI_aR4?si=K56pAUpOUblXQ4t3
+            </section>
+
+            <section id="sec04">
+                <h2>ボックスモデルをコントロールしましょう</h2>
+                <!-- ************************ 問題０7回答欄 ************************ -->
+
+                <section id="boxModel">
+                    <div>ボックス１</div>
+                    <p>ボックス２</p>
+                    <span>ボックス３</span>
+                </section>
+            </section>
+
+            <section id="sec05">
+                <h2>Flexboxでヘッダーデザインを組んでみよう</h2>
+
+                <!-- ************************ 問題０8回答欄 ************************ -->
+                <div class="sec05Wrap">
+                    <h3>UFO_STATION</h3>
+
+                    <div class="sec05Logo">
+                        <img src="images/flexLogo.svg" alt="UFO STATIONロゴ" />
+                    </div>
+
+                    <nav class="sec05Nav">
+                        <ul>
+                            <li>Adamski</li>
+                            <li>Ramiel</li>
+                            <li>Donut</li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+            <section id="sec06">
+                <h2>Flexboxでレイアウトを組んでみよう</h2>
+
+                <!-- ************************ 問題０９回答欄 ************************ -->
+                <div class="sec06Container">
+                    <h3>SHIP OF THESEUS</h3>
+
+                    <div class="sec06Text">
+                        <p>
+                            When all the parts that make up an object are replaced, can we say that the past object and
+                            the present object are the same object?
+                        </p>
+                    </div>
+
+                    <div class="sec06Button">Read More</div>
+
+                    <div class="sec06Images">
+                        <div>
+                            <img src="images/flexItemImg01.webp" alt="SHIP OF THESEUSの画像1" />
+                        </div>
+                        <div>
+                            <img src="images/flexItemImg02.webp" alt="SHIP OF THESEUSの画像2" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sec07">
+                <h2>レスポンシブを入れてみよう</h2>
+                <!-- ************************ 問題１０回答欄 ************************ -->
+                <div class="sec07box">
+                    <div class="sec07item">
+                        <p>Nutrition</p>
+                    </div>
+                    <div class="sec07item">
+                        <p>Training</p>
+                    </div>
+                    <div class="sec07item">
+                        <p>Rest</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="sec08">
+                <h2></h2>
+            </section>
+
+            <section id="sec09">
+                <!-- ************************ 問題１１回答欄 ************************ -->
+                <div class="gridContainer">
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">臨時休講のお知らせ</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg01.webp" alt="臨時休講のお知らせ" />
+                        </div>
+                        <p class="gridCardItemText">
+                            講師都合により、本日の授業は臨時休講となります。振替日は追って連絡します。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">春の体験会を開催します</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg02.webp" alt="春の体験会を開催します" />
+                        </div>
+                        <p class="gridCardItemText">
+                            未経験の方向けに、Web制作のミニ体験会を実施します。HTML/CSSの基礎と、簡単なカードUI制作までを体験できます。持ち物は不要です。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">サイトメンテのお知らせ（深夜）</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg03.webp" alt="サイトメンテのお知らせ（深夜）" />
+                        </div>
+                        <p class="gridCardItemText">
+                            3/12（水）1:00〜3:00の間、システム更新のため一部ページが表示できない可能性があります。作業状況により時間が前後する場合があります。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">作品展示ページに掲載する画像を募集</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg04.webp" alt="" />
+                        </div>
+                        <p class="gridCardItemText">
+                            受講生の制作物を紹介する展示ページを準備中です。掲載OKの方は、トップ画像（横長推奨）と簡単な説明文を提出してください。提出方法はSlackの固定メッセージを確認してください。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">マイページに「進捗チェック」が追加されました</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg05.webp" alt="マイページに「進捗チェック」が追加されました" />
+                        </div>
+                        <p class="gridCardItemText">
+                            各ステップの達成状況をチェックできる機能を追加しました。チェックは自分用のメモとしても使えます。次回ログイン時に表示されない場合は、再読み込みをお試しください。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+
+                    <div class="gridCardItem">
+                        <h3 class="gridCardItemTitle">今週のピックアップ作品</h3>
+                        <div class="gridCardItemImg">
+                            <img src="images/gridItemImg06.webp" alt="今週のピックアップ作品" />
+                        </div>
+                        <p class="gridCardItemText">
+                            今週は「6枚カードのGridレイアウト」をテーマにした作品が多く提出されました。余白設計や文字サイズの階層が丁寧なものが増えていて、とても良い流れです。次はホバー時の微アニメーションや、スマホ1列→タブレット2列→PC3列の段階的な設計にも挑戦してみましょう。
+                        </p>
+                        <div class="gridCardItemButton">詳しく読む</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <!-- ************************ 問題１２回答欄 ************************ -->
+            <p class="footer_text">2023 Syo Motoyama</p>
+        </footer>
+    </body>
+</html>
